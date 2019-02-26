@@ -1827,6 +1827,34 @@ var layouts = {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/home/BlogCard.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/home/BlogCard.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/home/Home.vue?vue&type=script&lang=js&":
 /*!********************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/home/Home.vue?vue&type=script&lang=js& ***!
@@ -1839,6 +1867,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _layout_common_SideBar_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../layout/common/SideBar.vue */ "./resources/js/components/layout/common/SideBar.vue");
 /* harmony import */ var vue_owl_carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-owl-carousel */ "./node_modules/vue-owl-carousel/dist/vue-owl-carousel.js");
 /* harmony import */ var vue_owl_carousel__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_owl_carousel__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _BlogCard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./BlogCard */ "./resources/js/components/home/BlogCard.vue");
 //
 //
 //
@@ -1976,112 +2005,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     SideBar: _layout_common_SideBar_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
-    carousel: vue_owl_carousel__WEBPACK_IMPORTED_MODULE_1___default.a
+    carousel: vue_owl_carousel__WEBPACK_IMPORTED_MODULE_1___default.a,
+    BlogCard: _BlogCard__WEBPACK_IMPORTED_MODULE_2__["default"]
   }
 });
 
@@ -6665,7 +6596,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.owl-nav {\n    display: none;\n}\n", ""]);
+exports.push([module.i, "\n.owl-nav {\r\n    display: none;\n}\r\n", ""]);
 
 // exports
 
@@ -37913,6 +37844,70 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/home/BlogCard.vue?vue&type=template&id=2527d3e7&":
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/home/BlogCard.vue?vue&type=template&id=2527d3e7& ***!
+  \****************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-6" }, [
+      _c(
+        "a",
+        {
+          staticClass: "blog-entry ",
+          attrs: { href: "blog-single.html", "data-animate-effect": "fadeIn" }
+        },
+        [
+          _c("img", {
+            attrs: { src: "images/img_6.jpg", alt: "Image placeholder" }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "blog-content-body" }, [
+            _c("div", { staticClass: "post-meta" }, [
+              _c("span", { staticClass: "author mr-2" }, [
+                _c("img", {
+                  attrs: { src: "images/person_1.jpg", alt: "Colorlib" }
+                }),
+                _vm._v(" Colorlib")
+              ]),
+              _vm._v("•\n        "),
+              _c("span", { staticClass: "mr-2" }, [_vm._v("March 15, 2018 ")]),
+              _vm._v(" •\n        "),
+              _c("span", { staticClass: "ml-2" }, [
+                _c("span", { staticClass: "fa fa-comments" }),
+                _vm._v(" 3")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("h2", [_vm._v("How to Find the Video Games of Your Youth")])
+          ])
+        ]
+      )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/home/Home.vue?vue&type=template&id=1f26c2f4&":
 /*!************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/home/Home.vue?vue&type=template&id=1f26c2f4& ***!
@@ -38135,7 +38130,32 @@ var render = function() {
         _c(
           "div",
           { staticClass: "row blog-entries" },
-          [_vm._m(1), _vm._v(" "), _c("side-bar")],
+          [
+            _c("div", { staticClass: "col-md-12 col-lg-8 main-content" }, [
+              _c(
+                "div",
+                { staticClass: "row" },
+                [
+                  _c("blog-card"),
+                  _vm._v(" "),
+                  _c("Blog-card"),
+                  _vm._v(" "),
+                  _c("Blog-card"),
+                  _vm._v(" "),
+                  _c("Blog-card"),
+                  _vm._v(" "),
+                  _c("Blog-card"),
+                  _vm._v(" "),
+                  _c("Blog-card")
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _vm._m(1)
+            ]),
+            _vm._v(" "),
+            _c("side-bar")
+          ],
           1
         )
       ])
@@ -38157,384 +38177,60 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12 col-lg-8 main-content" }, [
-      _c("div", { staticClass: "row" }, [
-        _c("div", { staticClass: "col-md-6" }, [
-          _c(
-            "a",
-            {
-              staticClass: "blog-entry ",
-              attrs: {
-                href: "blog-single.html",
-                "data-animate-effect": "fadeIn"
-              }
-            },
-            [
-              _c("img", {
-                attrs: { src: "images/img_5.jpg", alt: "Image placeholder" }
-              }),
+    return _c("div", { staticClass: "row mt-5" }, [
+      _c("div", { staticClass: "col-md-12 text-center" }, [
+        _c(
+          "nav",
+          {
+            staticClass: "text-center",
+            attrs: { "aria-label": "Page navigation" }
+          },
+          [
+            _c("ul", { staticClass: "pagination" }, [
+              _c("li", { staticClass: "page-item  active" }, [
+                _c("a", { staticClass: "page-link", attrs: { href: "#" } }, [
+                  _vm._v("<")
+                ])
+              ]),
               _vm._v(" "),
-              _c("div", { staticClass: "blog-content-body" }, [
-                _c("div", { staticClass: "post-meta" }, [
-                  _c("span", { staticClass: "author mr-2" }, [
-                    _c("img", {
-                      attrs: { src: "images/person_1.jpg", alt: "Colorlib" }
-                    }),
-                    _vm._v(" Colorlib")
-                  ]),
-                  _vm._v("•\n                    "),
-                  _c("span", { staticClass: "mr-2" }, [
-                    _vm._v("March 15, 2018 ")
-                  ]),
-                  _vm._v(" •\n                    "),
-                  _c("span", { staticClass: "ml-2" }, [
-                    _c("span", { staticClass: "fa fa-comments" }),
-                    _vm._v(" 3")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("h2", [_vm._v("How to Find the Video Games of Your Youth")])
-              ])
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-6" }, [
-          _c(
-            "a",
-            {
-              staticClass: "blog-entry ",
-              attrs: {
-                href: "blog-single.html",
-                "data-animate-effect": "fadeIn"
-              }
-            },
-            [
-              _c("img", {
-                attrs: { src: "images/img_6.jpg", alt: "Image placeholder" }
-              }),
+              _c("li", { staticClass: "page-item" }, [
+                _c("a", { staticClass: "page-link", attrs: { href: "#" } }, [
+                  _vm._v("1")
+                ])
+              ]),
               _vm._v(" "),
-              _c("div", { staticClass: "blog-content-body" }, [
-                _c("div", { staticClass: "post-meta" }, [
-                  _c("span", { staticClass: "author mr-2" }, [
-                    _c("img", {
-                      attrs: { src: "images/person_1.jpg", alt: "Colorlib" }
-                    }),
-                    _vm._v(" Colorlib")
-                  ]),
-                  _vm._v("•\n                    "),
-                  _c("span", { staticClass: "mr-2" }, [
-                    _vm._v("March 15, 2018 ")
-                  ]),
-                  _vm._v(" •\n                    "),
-                  _c("span", { staticClass: "ml-2" }, [
-                    _c("span", { staticClass: "fa fa-comments" }),
-                    _vm._v(" 3")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("h2", [_vm._v("How to Find the Video Games of Your Youth")])
-              ])
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-6" }, [
-          _c(
-            "a",
-            {
-              staticClass: "blog-entry ",
-              attrs: {
-                href: "blog-single.html",
-                "data-animate-effect": "fadeIn"
-              }
-            },
-            [
-              _c("img", {
-                attrs: { src: "images/img_7.jpg", alt: "Image placeholder" }
-              }),
+              _c("li", { staticClass: "page-item" }, [
+                _c("a", { staticClass: "page-link", attrs: { href: "#" } }, [
+                  _vm._v("2")
+                ])
+              ]),
               _vm._v(" "),
-              _c("div", { staticClass: "blog-content-body" }, [
-                _c("div", { staticClass: "post-meta" }, [
-                  _c("span", { staticClass: "author mr-2" }, [
-                    _c("img", {
-                      attrs: { src: "images/person_1.jpg", alt: "Colorlib" }
-                    }),
-                    _vm._v(" Colorlib")
-                  ]),
-                  _vm._v("•\n                    "),
-                  _c("span", { staticClass: "mr-2" }, [
-                    _vm._v("March 15, 2018 ")
-                  ]),
-                  _vm._v(" •\n                    "),
-                  _c("span", { staticClass: "ml-2" }, [
-                    _c("span", { staticClass: "fa fa-comments" }),
-                    _vm._v(" 3")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("h2", [_vm._v("How to Find the Video Games of Your Youth")])
-              ])
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-6" }, [
-          _c(
-            "a",
-            {
-              staticClass: "blog-entry ",
-              attrs: {
-                href: "blog-single.html",
-                "data-animate-effect": "fadeIn"
-              }
-            },
-            [
-              _c("img", {
-                attrs: { src: "images/img_8.jpg", alt: "Image placeholder" }
-              }),
+              _c("li", { staticClass: "page-item" }, [
+                _c("a", { staticClass: "page-link", attrs: { href: "#" } }, [
+                  _vm._v("3")
+                ])
+              ]),
               _vm._v(" "),
-              _c("div", { staticClass: "blog-content-body" }, [
-                _c("div", { staticClass: "post-meta" }, [
-                  _c("span", { staticClass: "author mr-2" }, [
-                    _c("img", {
-                      attrs: { src: "images/person_1.jpg", alt: "Colorlib" }
-                    }),
-                    _vm._v(" Colorlib")
-                  ]),
-                  _vm._v("•\n                    "),
-                  _c("span", { staticClass: "mr-2" }, [
-                    _vm._v("March 15, 2018 ")
-                  ]),
-                  _vm._v(" •\n                    "),
-                  _c("span", { staticClass: "ml-2" }, [
-                    _c("span", { staticClass: "fa fa-comments" }),
-                    _vm._v(" 3")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("h2", [_vm._v("How to Find the Video Games of Your Youth")])
-              ])
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-6" }, [
-          _c(
-            "a",
-            {
-              staticClass: "blog-entry ",
-              attrs: {
-                href: "blog-single.html",
-                "data-animate-effect": "fadeIn"
-              }
-            },
-            [
-              _c("img", {
-                attrs: { src: "images/img_9.jpg", alt: "Image placeholder" }
-              }),
+              _c("li", { staticClass: "page-item" }, [
+                _c("a", { staticClass: "page-link", attrs: { href: "#" } }, [
+                  _vm._v("4")
+                ])
+              ]),
               _vm._v(" "),
-              _c("div", { staticClass: "blog-content-body" }, [
-                _c("div", { staticClass: "post-meta" }, [
-                  _c("span", { staticClass: "author mr-2" }, [
-                    _c("img", {
-                      attrs: { src: "images/person_1.jpg", alt: "Colorlib" }
-                    }),
-                    _vm._v(" Colorlib")
-                  ]),
-                  _vm._v("•\n                    "),
-                  _c("span", { staticClass: "mr-2" }, [
-                    _vm._v("March 15, 2018 ")
-                  ]),
-                  _vm._v(" •\n                    "),
-                  _c("span", { staticClass: "ml-2" }, [
-                    _c("span", { staticClass: "fa fa-comments" }),
-                    _vm._v(" 3")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("h2", [_vm._v("How to Find the Video Games of Your Youth")])
-              ])
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-6" }, [
-          _c(
-            "a",
-            {
-              staticClass: "blog-entry ",
-              attrs: {
-                href: "blog-single.html",
-                "data-animate-effect": "fadeIn"
-              }
-            },
-            [
-              _c("img", {
-                attrs: { src: "images/img_10.jpg", alt: "Image placeholder" }
-              }),
+              _c("li", { staticClass: "page-item" }, [
+                _c("a", { staticClass: "page-link", attrs: { href: "#" } }, [
+                  _vm._v("5")
+                ])
+              ]),
               _vm._v(" "),
-              _c("div", { staticClass: "blog-content-body" }, [
-                _c("div", { staticClass: "post-meta" }, [
-                  _c("span", { staticClass: "author mr-2" }, [
-                    _c("img", {
-                      attrs: { src: "images/person_1.jpg", alt: "Colorlib" }
-                    }),
-                    _vm._v(" Colorlib")
-                  ]),
-                  _vm._v("•\n                    "),
-                  _c("span", { staticClass: "mr-2" }, [
-                    _vm._v("March 15, 2018 ")
-                  ]),
-                  _vm._v(" •\n                    "),
-                  _c("span", { staticClass: "ml-2" }, [
-                    _c("span", { staticClass: "fa fa-comments" }),
-                    _vm._v(" 3")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("h2", [_vm._v("How to Find the Video Games of Your Youth")])
-              ])
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-6" }, [
-          _c(
-            "a",
-            {
-              staticClass: "blog-entry ",
-              attrs: {
-                href: "blog-single.html",
-                "data-animate-effect": "fadeIn"
-              }
-            },
-            [
-              _c("img", {
-                attrs: { src: "images/img_11.jpg", alt: "Image placeholder" }
-              }),
-              _vm._v(" "),
-              _c("div", { staticClass: "blog-content-body" }, [
-                _c("div", { staticClass: "post-meta" }, [
-                  _c("span", { staticClass: "author mr-2" }, [
-                    _c("img", {
-                      attrs: { src: "images/person_1.jpg", alt: "Colorlib" }
-                    }),
-                    _vm._v(" Colorlib")
-                  ]),
-                  _vm._v("•\n                    "),
-                  _c("span", { staticClass: "mr-2" }, [
-                    _vm._v("March 15, 2018 ")
-                  ]),
-                  _vm._v(" •\n                    "),
-                  _c("span", { staticClass: "ml-2" }, [
-                    _c("span", { staticClass: "fa fa-comments" }),
-                    _vm._v(" 3")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("h2", [_vm._v("How to Find the Video Games of Your Youth")])
-              ])
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-6" }, [
-          _c(
-            "a",
-            {
-              staticClass: "blog-entry ",
-              attrs: {
-                href: "blog-single.html",
-                "data-animate-effect": "fadeIn"
-              }
-            },
-            [
-              _c("img", {
-                attrs: { src: "images/img_12.jpg", alt: "Image placeholder" }
-              }),
-              _vm._v(" "),
-              _c("div", { staticClass: "blog-content-body" }, [
-                _c("div", { staticClass: "post-meta" }, [
-                  _c("span", { staticClass: "author mr-2" }, [
-                    _c("img", {
-                      attrs: { src: "images/person_1.jpg", alt: "Colorlib" }
-                    }),
-                    _vm._v(" Colorlib")
-                  ]),
-                  _vm._v("•\n                    "),
-                  _c("span", { staticClass: "mr-2" }, [
-                    _vm._v("March 15, 2018 ")
-                  ]),
-                  _vm._v(" •\n                    "),
-                  _c("span", { staticClass: "ml-2" }, [
-                    _c("span", { staticClass: "fa fa-comments" }),
-                    _vm._v(" 3")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("h2", [_vm._v("How to Find the Video Games of Your Youth")])
-              ])
-            ]
-          )
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "row mt-5" }, [
-        _c("div", { staticClass: "col-md-12 text-center" }, [
-          _c(
-            "nav",
-            {
-              staticClass: "text-center",
-              attrs: { "aria-label": "Page navigation" }
-            },
-            [
-              _c("ul", { staticClass: "pagination" }, [
-                _c("li", { staticClass: "page-item  active" }, [
-                  _c("a", { staticClass: "page-link", attrs: { href: "#" } }, [
-                    _vm._v("<")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "page-item" }, [
-                  _c("a", { staticClass: "page-link", attrs: { href: "#" } }, [
-                    _vm._v("1")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "page-item" }, [
-                  _c("a", { staticClass: "page-link", attrs: { href: "#" } }, [
-                    _vm._v("2")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "page-item" }, [
-                  _c("a", { staticClass: "page-link", attrs: { href: "#" } }, [
-                    _vm._v("3")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "page-item" }, [
-                  _c("a", { staticClass: "page-link", attrs: { href: "#" } }, [
-                    _vm._v("4")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "page-item" }, [
-                  _c("a", { staticClass: "page-link", attrs: { href: "#" } }, [
-                    _vm._v("5")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "page-item" }, [
-                  _c("a", { staticClass: "page-link", attrs: { href: "#" } }, [
-                    _vm._v(">")
-                  ])
+              _c("li", { staticClass: "page-item" }, [
+                _c("a", { staticClass: "page-link", attrs: { href: "#" } }, [
+                  _vm._v(">")
                 ])
               ])
-            ]
-          )
-        ])
+            ])
+          ]
+        )
       ])
     ])
   }
@@ -54300,6 +53996,75 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/home/BlogCard.vue":
+/*!***************************************************!*\
+  !*** ./resources/js/components/home/BlogCard.vue ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _BlogCard_vue_vue_type_template_id_2527d3e7___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./BlogCard.vue?vue&type=template&id=2527d3e7& */ "./resources/js/components/home/BlogCard.vue?vue&type=template&id=2527d3e7&");
+/* harmony import */ var _BlogCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./BlogCard.vue?vue&type=script&lang=js& */ "./resources/js/components/home/BlogCard.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _BlogCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _BlogCard_vue_vue_type_template_id_2527d3e7___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _BlogCard_vue_vue_type_template_id_2527d3e7___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/home/BlogCard.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/home/BlogCard.vue?vue&type=script&lang=js&":
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/home/BlogCard.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BlogCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./BlogCard.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/home/BlogCard.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_BlogCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/home/BlogCard.vue?vue&type=template&id=2527d3e7&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/home/BlogCard.vue?vue&type=template&id=2527d3e7& ***!
+  \**********************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BlogCard_vue_vue_type_template_id_2527d3e7___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./BlogCard.vue?vue&type=template&id=2527d3e7& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/home/BlogCard.vue?vue&type=template&id=2527d3e7&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BlogCard_vue_vue_type_template_id_2527d3e7___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BlogCard_vue_vue_type_template_id_2527d3e7___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/components/home/Home.vue":
 /*!***********************************************!*\
   !*** ./resources/js/components/home/Home.vue ***!
@@ -54787,8 +54552,8 @@ function scrollBehavior(to, from, savedPosition) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/dev/php/blog/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /home/dev/php/blog/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! D:\release\blog\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\release\blog\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

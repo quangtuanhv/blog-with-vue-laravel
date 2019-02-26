@@ -96,113 +96,13 @@
           <div class="row blog-entries">
             <div class="col-md-12 col-lg-8 main-content">
               <div class="row">
-                <div class="col-md-6">
-                  <a href="blog-single.html" class="blog-entry " data-animate-effect="fadeIn">
-                    <img src="images/img_5.jpg" alt="Image placeholder">
-                    <div class="blog-content-body">
-                      <div class="post-meta">
-                        <span class="author mr-2"><img src="images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                        <span class="mr-2">March 15, 2018 </span> &bullet;
-                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                      </div>
-                      <h2>How to Find the Video Games of Your Youth</h2>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-md-6">
-                  <a href="blog-single.html" class="blog-entry " data-animate-effect="fadeIn">
-                    <img src="images/img_6.jpg" alt="Image placeholder">
-                    <div class="blog-content-body">
-                      <div class="post-meta">
-                        <span class="author mr-2"><img src="images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                        <span class="mr-2">March 15, 2018 </span> &bullet;
-                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                      </div>
-                      <h2>How to Find the Video Games of Your Youth</h2>
-                    </div>
-                  </a>
-                </div>
+                <blog-card/>
+                <Blog-card/>
+                <Blog-card/>
+                <Blog-card/>
+                <Blog-card/>
+                <Blog-card/>
 
-                <div class="col-md-6">
-                  <a href="blog-single.html" class="blog-entry " data-animate-effect="fadeIn">
-                    <img src="images/img_7.jpg" alt="Image placeholder">
-                    <div class="blog-content-body">
-                      <div class="post-meta">
-                        <span class="author mr-2"><img src="images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                        <span class="mr-2">March 15, 2018 </span> &bullet;
-                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                      </div>
-                      <h2>How to Find the Video Games of Your Youth</h2>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-md-6">
-                  <a href="blog-single.html" class="blog-entry " data-animate-effect="fadeIn">
-                    <img src="images/img_8.jpg" alt="Image placeholder">
-                    <div class="blog-content-body">
-                      <div class="post-meta">
-                        <span class="author mr-2"><img src="images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                        <span class="mr-2">March 15, 2018 </span> &bullet;
-                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                      </div>
-                      <h2>How to Find the Video Games of Your Youth</h2>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="col-md-6">
-                  <a href="blog-single.html" class="blog-entry " data-animate-effect="fadeIn">
-                    <img src="images/img_9.jpg" alt="Image placeholder">
-                    <div class="blog-content-body">
-                      <div class="post-meta">
-                        <span class="author mr-2"><img src="images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                        <span class="mr-2">March 15, 2018 </span> &bullet;
-                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                      </div>
-                      <h2>How to Find the Video Games of Your Youth</h2>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-md-6">
-                  <a href="blog-single.html" class="blog-entry " data-animate-effect="fadeIn">
-                    <img src="images/img_10.jpg" alt="Image placeholder">
-                    <div class="blog-content-body">
-                      <div class="post-meta">
-                        <span class="author mr-2"><img src="images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                        <span class="mr-2">March 15, 2018 </span> &bullet;
-                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                      </div>
-                      <h2>How to Find the Video Games of Your Youth</h2>
-                    </div>
-                  </a>
-                </div>
-
-                <div class="col-md-6">
-                  <a href="blog-single.html" class="blog-entry " data-animate-effect="fadeIn">
-                    <img src="images/img_11.jpg" alt="Image placeholder">
-                    <div class="blog-content-body">
-                      <div class="post-meta">
-                        <span class="author mr-2"><img src="images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                        <span class="mr-2">March 15, 2018 </span> &bullet;
-                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                      </div>
-                      <h2>How to Find the Video Games of Your Youth</h2>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-md-6">
-                  <a href="blog-single.html" class="blog-entry " data-animate-effect="fadeIn">
-                    <img src="images/img_12.jpg" alt="Image placeholder">
-                    <div class="blog-content-body">
-                      <div class="post-meta">
-                        <span class="author mr-2"><img src="images/person_1.jpg" alt="Colorlib"> Colorlib</span>&bullet;
-                        <span class="mr-2">March 15, 2018 </span> &bullet;
-                        <span class="ml-2"><span class="fa fa-comments"></span> 3</span>
-                      </div>
-                      <h2>How to Find the Video Games of Your Youth</h2>
-                    </div>
-                  </a>
-                </div>
               </div>
 
               <div class="row mt-5">
@@ -238,10 +138,12 @@
 <script>
 import SideBar from '../layout/common/SideBar.vue'
 import carousel from 'vue-owl-carousel'
+import BlogCard from './BlogCard'
 export default {
     components:{
         SideBar,
-        carousel
+        carousel,
+        BlogCard
     },
 }
 </script>
