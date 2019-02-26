@@ -85,9 +85,11 @@ $factory->define(App\Models\SubCategory::class, function (Faker\Generator $faker
 
 $factory->define(App\Models\Post::class, function (Faker\Generator $faker) {
     static $SubCategoryId;
-
+    static $userId;
+    
     return [
-        'title' => $faker->name,
+        'title'   => $faker->name,
+        'user_id' => $faker->randomElement($userId = App\Models\User::pluck('id')->toArray()),
         'content' => $faker->text,
         'sub_category_id'=> $faker->randomElement($SubCategoryId ?: $SubCategoryId = App\Models\SubCategory::pluck('id')->toArray()),
     ];

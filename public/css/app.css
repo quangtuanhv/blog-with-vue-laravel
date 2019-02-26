@@ -10663,7 +10663,7 @@ Creation date: 05/04/2018 23:22
 @font-face {
   font-family: "Flaticon";
   src: url(/fonts/Flaticon.eot?37c9235502d13f2fb8dd90ec048f3607);
-  src: url(/fonts/Flaticon.eot?37c9235502d13f2fb8dd90ec048f3607) format("embedded-opentype"), url(/fonts/Flaticon.woff?487f27c75edb6744a66f8e98fb743a6b) format("woff"), url(/fonts/Flaticon.ttf?28e92368826c1a5078a2d3d79f187517) format("truetype"), url(/fonts/Flaticon.svg?1aefab07fb6ac5b4bbfa4be571d7c17e) format("svg");
+  src: url(/fonts/Flaticon.eot?37c9235502d13f2fb8dd90ec048f3607) format("embedded-opentype"), url(/fonts/Flaticon.woff?487f27c75edb6744a66f8e98fb743a6b) format("woff"), url(/fonts/Flaticon.ttf?28e92368826c1a5078a2d3d79f187517) format("truetype"), url(/fonts/Flaticon.svg?138e5b28abfe03cffafbc77dcb6de962) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -10671,7 +10671,7 @@ Creation date: 05/04/2018 23:22
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
 @font-face {
     font-family: "Flaticon";
-    src: url(/fonts/Flaticon.svg?1aefab07fb6ac5b4bbfa4be571d7c17e) format("svg");
+    src: url(/fonts/Flaticon.svg?138e5b28abfe03cffafbc77dcb6de962) format("svg");
 }
 }
 

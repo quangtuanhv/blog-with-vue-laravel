@@ -6596,7 +6596,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.owl-nav {\r\n    display: none;\n}\r\n", ""]);
+exports.push([module.i, "\n.owl-nav {\n    display: none;\n}\n", ""]);
 
 // exports
 
@@ -54552,8 +54552,8 @@ function scrollBehavior(to, from, savedPosition) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\release\blog\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\release\blog\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /home/dev/php/blog/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /home/dev/php/blog/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

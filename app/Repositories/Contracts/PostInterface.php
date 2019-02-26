@@ -7,6 +7,6 @@ interface PostInterface extends Repositoryinterface
 
     public function getSlide();
     
-    public function getPopularPost();
+    public function getPopular();
     
 }

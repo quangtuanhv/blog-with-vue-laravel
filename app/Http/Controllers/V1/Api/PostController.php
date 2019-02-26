@@ -17,7 +17,7 @@ class PostController extends ApiController
 
     }
 
-    public function getPopularPost()
+    public function getPopular()
     {
 
     }
