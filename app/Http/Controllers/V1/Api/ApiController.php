@@ -7,13 +7,13 @@ use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
 use App\Exceptions\Api\UnknowException;
 use App\Exceptions\Api\NotFoundException;
-use App\Http\Controllers\AbstractController;
+use App\Http\Controllers\V1\AbstractController;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 
 class ApiController extends AbstractController
 {
     protected $guard = 'api';
-    private $redis;
+    // private $redis;
 
     protected function trueJson()
     {

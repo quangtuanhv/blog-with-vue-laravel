@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\V1;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 
 abstract class AbstractController extends Controller

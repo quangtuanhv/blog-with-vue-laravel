@@ -17,6 +17,6 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
-Route::group(['namespace' => 'V1/Api'], function () {
+Route::group(['namespace' => 'V1\Api'], function () {
     Route::prefix('post')->group(base_path('routes/api/post.php'));
 });

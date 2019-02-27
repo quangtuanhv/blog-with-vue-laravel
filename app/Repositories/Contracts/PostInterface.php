@@ -9,4 +9,9 @@ interface PostInterface extends Repositoryinterface
     
     public function getPopular();
     
+    public function create($inputs);
+
+    public function delete($postId);
+
+    public function update($post, $inputs);
 }
