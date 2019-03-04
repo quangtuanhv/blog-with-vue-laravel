@@ -44,14 +44,31 @@ class PostRepository extends BaseRepository implements PostInterface
         {
             throw new UnknowException ('Inputs is null or not an array');
         }
+        
+        $data = [
+            'title' => $inputs['title'],
+            'content' => $inputs['content'],
+            'user_id' => $inputs['user_id'],
+            'sub_category_id' => $inputs['sub_category_id'],
+            'avatar_post' => $inputs['avatar_post']
+        ];
 
-        $post = parent::create($inputs);
+        $data['published'] = false;
+        $data['number_of_likes'] = 0;
+        $data['number_of_comments'] = 0;
+
+        $post = parent::create($data);
 
         if (!$post) 
         {
             throw new NotFoundException("Can't create a post");   
         }
 
+        if ($inputs['tags'] && is_array($inputs['tags'])) 
+        {
+            $post->tags()->attach($inputs['tags']['old']);
+            $post->tags()->createMany($inputs['tags']['new']);
+        }
         
         return $post;
     }

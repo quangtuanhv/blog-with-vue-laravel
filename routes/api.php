@@ -19,4 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::group(['namespace' => 'V1\Api'], function () {
     Route::prefix('post')->group(base_path('routes/api/post.php'));
+    Route::group(['namespace'=>'Auth'], function () {
+        Route::prefix('auth')->group(base_path('routes/api/auth.php'));
+    });    
 });

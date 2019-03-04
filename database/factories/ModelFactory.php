@@ -91,6 +91,8 @@ $factory->define(App\Models\Post::class, function (Faker\Generator $faker) {
         'title'   => $faker->name,
         'user_id' => $faker->randomElement($userId = App\Models\User::pluck('id')->toArray()),
         'content' => $faker->text,
+        'number_of_comments'=>0,
+        'number_of_likes'=>0,
         'sub_category_id'=> $faker->randomElement($SubCategoryId ?: $SubCategoryId = App\Models\SubCategory::pluck('id')->toArray()),
     ];
 });

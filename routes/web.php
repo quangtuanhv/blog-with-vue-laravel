@@ -14,6 +14,12 @@
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+Route::group(['namespace' => 'Frontend'], function () {
+    Route::get('/active/{token}', 'UserController@active');
+
+    Route::get('/user', 'UserController@index');
+});
+
 Route::get('/{vue_capture?}', function () {
     return view('welcome');
 })->where('vue_capture','(.*)')->name('app_main');

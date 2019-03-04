@@ -1,7 +1,7 @@
 <?php
 namespace App\Repositories\Contracts;
 
-interface PostInterface extends Repositoryinterface
+interface PostInterface extends RepositoryInterface
 {
     public function getLatest();
 

@@ -13,6 +13,9 @@ class User extends Authenticatable
     const IN_ACTIVE = 0;
     const ACTIVE = 1;
     const BAN = 2;
+
+    const ACTIVE_LINK_SEND = 'emails.active';
+
     protected $fillable = [
         'name',
         'email',
@@ -59,12 +62,8 @@ class User extends Authenticatable
             $user->birthday = is_null($user->birthday) ? null : Carbon::parse($user->birthday);
             $user->avatar = $user->avatar ?: config('settings.default_avatar');
             $user->gender = is_null($user->gender) ? 0 :$user->gender;
+            $user->status = 0;
         });
-    }
-
-    public function getBirthdayAttribute($date)
-    {
-        return Carbon::parse($date)->toDateString();
     }
 
     public function posts()

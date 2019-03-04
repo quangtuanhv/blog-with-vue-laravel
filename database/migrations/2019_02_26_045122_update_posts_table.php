@@ -15,6 +15,9 @@ class UpdatePostsTable extends Migration
     {
         Schema::table('posts', function (Blueprint $table) {
             $table->integer('user_id')->after('published');
+            $table->integer('number_of_comments')->after('user_id');
+            $table->integer('number_of_likes')->after('number_of_comments');
+            $table->string('avatar_post')->after('number_of_likes');
         });
     }
 
@@ -27,6 +30,9 @@ class UpdatePostsTable extends Migration
     {
         Schema::table('posts', function (Blueprint $table) {
             $table->dropColumn('user_id');
+            $table->dropColumn('number_of_comments');
+            $table->dropColumn('number_of_likes');
+            $table->dropColumn('avatar_post');
         });
     }
 }
