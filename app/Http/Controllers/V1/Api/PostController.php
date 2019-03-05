@@ -4,6 +4,7 @@ namespace App\Http\Controllers\V1\Api;
 
 use App\Models\Post;
 use Illuminate\Http\Request;
+use App\Exceptions\Api\UnknowException;
 use App\Repositories\Contracts\TagInterface;
 use App\Repositories\Contracts\PostInterface;
 
@@ -20,6 +21,7 @@ class PostController extends ApiController
         parent::__construct();
         $this->postRepository = $postRepository;
         $this->tagRepository = $tagRepository;
+        $this->middleware('auth:api',['only'=>['destroy','update','store']]);
     } 
 
     public function getLatest()
@@ -98,10 +100,14 @@ class PostController extends ApiController
      */
     public function destroy($id)
     {
-        //
+        $post = $this->postRepository->findOrFail($id);
+
+        if (!$this->user->can('manage', $post)) {
+            throw new UnknowException('You do not have authorize to delete this post', UNAUTHORIZED);
+        }
+
+        return $this->doAction(function($post) {
+            $this->compacts['result'] = $this->postRepository->delete($post);
+        });
     }
-
-
-
-
 }
